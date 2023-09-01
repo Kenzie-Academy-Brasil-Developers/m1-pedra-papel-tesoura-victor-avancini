@@ -22,5 +22,5 @@ function playRockPaperScissor(player1,player2) {
     return 'Empate!'
 }
 
-const resultado = playRockPaperScissor(prompt('Pedra, Papel ou Tesoura?'),prompt('Pedra, Papel ou Tesoura?'));
+const resultado = playRockPaperScissor('Pedra','Papel');
 console.log(resultado); // Saída: "Jogador 1 venceu!"Pedra
